@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.12/css/weather-icons.min.css');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    min-height: 100vh;
+    background-color: #2F2E30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poiret One', cursive;
+}
+
+.inputArea {
+    width: 100%;
+    text-align: center;
+}
+
+.inputBox {
+    padding-bottom: 35px;
+}
+
+.inputBox .search {
+    width: 250px;
+    height: 31px;
+    padding: 10px 12px 10px 10px;
+    border: none;
+    border-radius: 7px 0 0 7px;
+    font-size: 16px;
+    box-shadow: 5px 10px 80px 10px #888888;
+}
+
+.inputBox .searchButton {
+    width: 80px;
+    height: 31px;
+    background-color: #03889D;
+    border: none;
+    color: #fff;
+    border-radius: 0px 7px 7px 0;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 5px 10px 80px 10px #888888;
+}
+
+.box {
+    width: 650px;
+    height: 400px;
+    display: grid;
+    align-items: center;
+    background-color: #F9F8F9;
+    border-radius: 20px;
+    box-shadow: 5px 10px 80px 10px #888888;
+}
+
+.box .boxInner {
+    text-align: center;
+    width: 650px;
+    height: 150px;
+}
+
+.box .boxInner .wetherSymbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: 800;
+    height: 150px;
+}
+
+.tempArea {
+    width: 650px;
+    height: 130px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.tempArea .tempAreaInner {
+    height: 130px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #26211C;
+    color: #fff;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tempArea .tempAreaInner .temp {
+    font-size: 45px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.tempArea .tempAreaInner .sunny {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.tempArea .tempAreaInner .sunny p {
+    font-size: 18px;
+}
+
+.tempArea .date {
+    background-color: #03889D;
+    height: 130px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.weatherInfo {
+    width: 650px;
+    height: 120px;
+    background-color: #D8D6D8;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 0 0 20px 20px;
+}
+
+.weatherInfo .sunset {
+    width: 325px;
+    height: 120px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.suninfo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sunweather {
+    font-size: 25px;
+    padding-left: 30px;
+    color: #03889D;
+}
+
+.description p {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.description span {
+    font-size: 14px;
+    font-weight: bolder;
+}

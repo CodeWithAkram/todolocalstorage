@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #070724;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mulish', sans-serif;
+}
+
+.todoTop {
+    width: 100%;
+}
+
+.logo img {
+    width: 100%;
+    height: 90px;
+}
+
+.todoText {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.todoText p {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Mulish', sans-serif;
+}
+
+.todoText span {
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFD43B;
+    font-family: 'Mulish', sans-serif;
+}
+
+.inputArea {
+    margin-bottom: 15px;
+}
+
+.addItems {
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color: #fff;
+    padding: 5px 5px 5px 10px;
+}
+
+.plusItem {
+    color: #282828;
+    margin-left: -25px;
+    cursor: pointer;
+}
+
+
+.plusItem:hover {
+    color: #5228D7;
+    
+}
+
+.editDeleteItem {
+    width: 250px;
+    height: 30px;
+    background-color: #5228D7;
+    color: #fff;
+    padding: 5px 5px 5px 10px;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.editDeleteItem:hover {
+    background-color: #371B8D;
+}
+
+.editItem {
+    color: rgb(123, 231, 123);
+    cursor: pointer;
+    margin-left: 135px;
+}
+
+.deleteItem {
+    color: rgb(121, 49, 49);
+    cursor: pointer;
+    padding-left: 11px;
+}
+
+.editItem:hover {
+    color: rgb(47, 196, 47);
+}
+
+.deleteItem:hover {
+    color: rgb(221, 27, 27);
+}
+
+.deleteAll {
+    text-align: center;
+}
+
+.remove {
+    width: 150px;
+    text-transform: uppercase;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 10px 80px 1px gray;
+    margin-top: 15px;
+}
+
+.remove:hover {
+    background-color: #371B8D;
+    color: #fff;
+}
